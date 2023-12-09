@@ -6,7 +6,7 @@ Grupai tika izvēlēta problēmsituācija **Sabalansētas ēdienkartes plānoša
 Tiek apskatītas uztura/sabalansētas ēdienkartes mobilas lietotnes:
 
 * **MyFitnessPal** ir plaši izmantota lietotne, kas ļauj lietotājiem sekot savam uzturam, ievadīt ēdienkarte, un izvērtēt uzturvērtības. Tas arī piedāvā kopīgojumu ar citām lietotnēm un ierīcēm, lai atvieglo ierakstu.
-
+d
 * **Yazio** ir uztura lietotne, kas palīdz lietotājiem plānot un sekot saviem ēdienkārtas ierakstiem. Tā piedāvā ēdienu receptes, iepirkšanās saraksta funkcijas un svara uzraudzību.
 
 * **Cronometer** ir precīza uztura lietotne, kas fokusējas uz iegūto uzturvērtību aprēķinu un mikroelementiem. Tas ir noderīgs tiem, kas vēlas detalizēti sekot savai uzturam un uzturvērtībām.
