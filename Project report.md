@@ -1,4 +1,4 @@
-<h1>Ievads</h1>
+<h1>Ievads AR</h1>
 <h2>Problēmas nostādne</h2>
 Grupai tika izvēlēta problēmsituācija **Sabalansētas ēdienkartes plānošana**
 <h2>Darba un novērtēšanas mērķis</h2>
