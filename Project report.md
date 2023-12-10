@@ -18,15 +18,74 @@ Tiek apskatītas uztura/sabalansētas ēdienkartes mobilas lietotnes:
 
 * **Lifesum** ir vēl viena uztura lietotne, kas ļauj lietotājiem plānot ēdienkārtas, izsekot uzturvērtības un uzraudzīt svaru. Tas piedāvā arī veselības un fitnesa padomus.
 
-{Pagaidam analīze notiek Google Sheet formātā [Fails](https://docs.google.com/spreadsheets/d/14rYE1LaclAuS8wUd5PzBctVmKE4_QQRFag4diDyu6ms/edit?usp=sharing) }
+**MyFitnessPal** 
+  **Lietotāja ievadīti dati**
+  Mērķis (palikt esošā svarā, uzņemt svaru vai mazinat svaru)
+  Dzīvesveids (cik aktīvs, 4 opcijas - mazkustīgs, nedaudz, aktīvs, ļoti aktīvs)
+  Dzimums, vecums, valsts
+  Augums, svars tagad, vēlamais svars
+  Cik daudz notievēt nedeļā (0.2, 0.5, 0.8, 1.0)"
+  **Iespēja ievadīt jaunus produktus** Ir
+  **Lietotnes gala rezultāts** Veselīgs uzturs un svara mazināšana
+  **Papildus funkcijas (maksas versijai)** Maksas ēdienkarte (7 vai 14 dienām)
+  **Apmaksātas versijas piedavājums** 
+  Maksas pieeja nesatur reklāmu
+  Maksas versijā ir vieglāk balansēt tauku-ogļhidrātu-olumbaltumvielas racionā (sniedz ieteikumus)
+  Maksas varsija sola personalizētus ieteikumus racionam
+
+**Yazio**
+  **Lietotāja ievadīti dati**
+  Mērķis - 5 opcijas (palikt esošā svarā, uzņemt svaru vai mazinat svaru, pluss - palielinat muskulatūru un cits)
+  Motivācija kāpēc (pašparliecība, uzlabot veselību, palielināt fizisko sagatavotību, sagatavoties kādam pasākumam, cits)
+  Ko vēl gribētos uzlabot
+  Kāda ir iepriekšēja pieredze svaru mazināšanas jomā (nepaveicas, izdevas un vēlos mazinat vēl, izdevas bet svars atgriežas)
+  Kādas bija grūtības svara mazināšanas laikā
+  Kas izraisīja lieko svaru iepriekš (trauma, work-life, grūtniecība, metabolisms, stress, medikamenti, citi)
+  Vai šis faktors izmainījas? Kas tieši pamainījas?
+  Kas ir pamats, lai sasniegt mērķi?
+  Pieredzes jautājums - vai pirms tam skaitīja kalorijas, vai izmēģināja ēdienreizes pēc režīma
+  Kā plānojiet pieturēties pie mērķa tagad?
+  Kā jūtaties par mērķi tagad?
+  Kā izmainīsies dzīve pēc mērķa sasniegšanas?
+  Dzimums, vecums
+  Augums
+  Aktivitātes līmenis (4 opcijas)
+  svars tagad, vēlamais svars
+  Pasākums, kuram var piesaistīt mērķi notievēt (vasara, kāzas utt.)
+  Cik minutes dienā tiks izmantota lietotne (5, 10, 15, 30)
+  Challenge - cik ilgi varēsiet kārtīgi aizpildīt lietotni
+  Kāda Jums ir diēta (klasiskā, pescatarian, vegetarian, vegan)
+  Tālāk seko Subscribtion piedāvājums
+  
+<h4>Secinājumi par līdzīgo risinājuma pārskatu</h4>
+Risinājumiem ir kopīgie anketas jautājumi par:
+1. lietotāja svaru, 
+1. vēlmi notievēt, saglabāt svaru vai pielikt svaru
+1. vecumu
+1. augumu
+1. dzīvesveidu (cik aktīvs ir cilvēks, opcijas - mazkustīgs dzīvesveids, nedaudz, aktīvs un ļoti aktīvs)
+  
 <h1>Tehniskais risinājums</h1>
 <h2>Prasības</h2>
 Prasības tiek sadalītas pēc sistēmas moduļa.
 
-{Tā pat, analīze un diskusija notiek Google Sheet formātā [Fails2](https://docs.google.com/spreadsheets/d/1QXOcWKI8lOxjqOabHhKIseSEPfXucFTdfRFKr-9_0Lw/edit?usp=sharing)}
+| Modulis                          | Prasība                                                                                                                        | Prioritāte  |
+| :---                             |    :----:                                                                                                                      |       :---: |
+| Lietotāja pieteikšanas           | Lietotājs var reģistrēties ar savu e-pastu un ienākt ar e-pastu un paroli, lai izmantot lietotni                               |             |
+| Lietotāja aptauja                | Lietotājs aizpilda anketu, lai saņemt personalizēto rezultātu                                                                  |             |
+| Lietotāja aptauja                | Lietotājs akceptē (confirm), ka iesniegtas atbildes ir pareizas                                                                |             |
+| Lietotāja aptauja                | Pēc anketas aizpildīšanas, lietotājs to var mainīt (edit), un uz jauno atbilžu pamata tiks uzģenerēts jauns rezultāts          |             |
+| Lietotāja aptauja                | Lietotājs ir informēts, kurā (pēc kārtas) ir reize, kad lietotājs izmaina savas atbildes                                       |             |
+| Rezultātu attēlošana             | Lietotājs saņem rezultātu ēdienkartes veidā                                                                                    |             |
+| Rezultātu attēlošana             | Lietotājs var apskatīt iepriekšējos uzģenerētus rezultātus                                                                     |             |
+| Paragraph   | Text        | And more      |
+
 <h2>Algoritms</h2>
 <h2>Konceptu modelis</h2>
 <h2>Tehnoloģijas steks</h2>
+Klienta puse - "Front End": HTML, CSS, JavaScript
+Servera puse - "Back End": Python/PHP, MySQL
+
 <h2>Programmatūras apraksts</h2>
 <h1>Novērtējums</h1>
 <h2>Novērtēšanas plāns</h2>
