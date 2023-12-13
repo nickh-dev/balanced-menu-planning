@@ -83,8 +83,8 @@ Prasības tiek sadalītas pēc sistēmas moduļa.
 <h2>Algoritms</h2>
 <h2>Konceptu modelis</h2>
 <h2>Tehnoloģijas steks</h2>
-![2](https://github.com/nickh-dev/balanced-menu-planning/assets/70661183/30604056-76c9-4261-b23b-3d8bfb798a83)
-![1](https://github.com/nickh-dev/balanced-menu-planning/assets/70661183/851586bc-f1aa-4439-aee6-30b66f6da347)
+![Server side] (1.png)
+![Client side] (2.png)
 
 Klienta puse - "Front End": HTML, CSS, JavaScript
 Servera puse - "Back End": Python/PHP, MySQL
