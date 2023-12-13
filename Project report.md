@@ -83,11 +83,9 @@ Prasības tiek sadalītas pēc sistēmas moduļa.
 <h2>Algoritms</h2>
 <h2>Konceptu modelis</h2>
 <h2>Tehnoloģijas steks</h2>
-![Server side] (1.png)
-![Client side] (2.png)
 
-Klienta puse - "Front End": HTML, CSS, JavaScript
-Servera puse - "Back End": Python/PHP, MySQL
+Servera puse - Satvars: Laravel, Programmēšanas valoda: PHP, Datu bāze: MySQL, Tīmekļa serveris: Nginx, OS: Ubuntu, IaaS: AWS
+Klienta puse - Struktūra: HTML, Prezentācija: CSS(Bootstrap), Uzvedība: JavaScript --> Tīmekļa vietne
 
 <h2>Programmatūras apraksts</h2>
 <h1>Novērtējums</h1>
