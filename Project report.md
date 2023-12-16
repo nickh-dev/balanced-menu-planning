@@ -57,7 +57,7 @@ Tiek apskatītas uztura/sabalansētas ēdienkartes mobilas lietotnes:
   Kāda Jums ir diēta (klasiskā, pescatarian, vegetarian, vegan)
   Tālāk seko Subscribtion piedāvājums
   
-<h4>Secinājumi par līdzīgo risinājuma pārskatu</h4>
+<h3>Secinājumi par līdzīgo risinājuma pārskatu</h3>
 Risinājumiem ir kopīgie anketas jautājumi par:
 1. lietotāja svaru, 
 1. vēlmi notievēt, saglabāt svaru vai pielikt svaru
@@ -80,6 +80,40 @@ Prasības tiek sadalītas pēc sistēmas moduļa.
 | Rezultātu attēlošana             | Lietotājs var apskatīt iepriekšējos uzģenerētus rezultātus                                                                     |        7     |
 
 <h2>Algoritms</h2>
+Līdzīgi, kā lietotne ir sadalīta moduļos, lietotnes algoritmi arī var būt nosacīti sadalīti pēc piederības noteiktam lietotnes modulim. Lietotnes algoritmi tiks apskatīti secīgi no lietotāja puses.
+
+**Lietotāja reģistrācija** 
+{Drawio.1}
+
+**BMI indeksa un svara mainīšanas vēlmes loģika pie ēdienkartes aprēķina** 
+Ir zināms, ka ēdināšana ir svarīgs process, ar ko var būt saistītas arī dažas psiholoģiskas problēmas. Psiholoģijā ir apakšnozare, kas aplūko ar ēdinašanas saistītus psihes traucējumus.
+Lai mūsu lietotne ņem vērā 
+{Drawio.2}
+
+**KCal aprēķins atbilstoši ankētas atbildēm** 
+No ieņēmtā kaloriju daudzuma ir atkarīgs, cik veiksmīgi lietotāja saņemtā ēdienkarte atbilst viņa/viņas vēlmēm notievēt, saglabāt esošo svaru vai arī pielikt svarā.
+Nepieciešamo kaloriju daudzums ir arī atkarīgs no vecuma, dzimuma un aktivitātes līmeņa.
+
+Kaloriju daudzums tiks ņemts no tabulām atbilstoši lietotāja (1) dzimuma, (2) vecuma, (3) aktivitāšu līmeņa un (4) vēlmes mainīt svaru.
+Pie tam, ja lietotājs vēlas notievēt, ēdienkarte būs -150kCal mazāka par normu, bet, ja lietotājs vēlas pielikt svarā, ēdienkarte būs +200kCal lielāka par normu.
+
+<h3>Tabula KCal daudzums sievietēm</h3>
+
+|             	| Aktīvs dzīvesveids  	| Mērens dzīvesveids  	| Pasīvs dzīvesveids	|
+|---	          |---                  	|---                  	|---	                |
+| 19-30 gadi  	|2400                  |2200                 	|2000               	|
+| 31-50 gadi  	|2200                 	|2000                 	|1800               	|
+| 51+ gadi    	|2000                 	|1800                 	|1600               	|
+
+
+<h3>Tabula KCal daudzums vīriešiem</h3>
+
+|             	| Aktīvs dzīvesveids  	| Mērens dzīvesveids  	| Pasīvs dzīvesveids	|
+|---	          |---                  	|---                  	|---	                |
+| 19-30 gadi  	|3000                  |2800                 	|2400               	|
+| 31-50 gadi  	|2800                 	|2600                 	|2200               	|
+| 51+ gadi    	|2600                 	|2400                 	|2000               	|
+
 
 
 <h2>Konceptu modelis</h2>
@@ -108,6 +142,9 @@ Konceptu modeļi ietilpst sekojošas koncepcijas:
 | 11   	|Svars - Uzturvielas            	| 1-1        	|Svars vienā anketas aizpildīšanas brīdī atbilst noteiktam kCal daudzumam.                       	|
 
 Konceptu modeļa attēlā papildus funkcionalitāte (mazināt ēdienu pagatavošanas laiku vai mazināt ēdienkartes izmaksas) tiek atzīmētas ar punktēto līniju.
+
+[![Alt text](https://github.com/nickh-dev/balanced-menu-planning/blob/374173068ca8e82be1f81d6ee519470b7fc0f041/concept_model.jpg)](Konceptu modelis)
+
 
 <h2>Tehnoloģijas steks</h2>
 
