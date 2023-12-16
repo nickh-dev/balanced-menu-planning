@@ -83,12 +83,12 @@ Prasības tiek sadalītas pēc sistēmas moduļa.
 Līdzīgi, kā lietotne ir sadalīta moduļos, lietotnes algoritmi arī var būt nosacīti sadalīti pēc piederības noteiktam lietotnes modulim. Lietotnes algoritmi tiks apskatīti secīgi no lietotāja puses.
 
 **Lietotāja reģistrācija** 
-{Drawio.1}
+[![Lietotāja reģistrācijas loģika](https://github.com/nickh-dev/balanced-menu-planning/blob/a3f6f985a19f57dcfce54f8832a92d46916b9fee/Lietotaja_registracijas_logika.drawio.png)]
 
 **BMI indeksa un svara mainīšanas vēlmes loģika pie ēdienkartes aprēķina** 
 Ir zināms, ka ēdināšana ir svarīgs process, ar ko var būt saistītas arī dažas psiholoģiskas problēmas. Psiholoģijā ir apakšnozare, kas aplūko ar ēdinašanas saistītus psihes traucējumus.
 Lai mūsu lietotne ņem vērā 
-{Drawio.2}
+[![BMI indekss un svara mainīšanas vēlmes loģika pie ēdienkartes aprēķina](https://github.com/nickh-dev/balanced-menu-planning/blob/a3f6f985a19f57dcfce54f8832a92d46916b9fee/BMI-svara_jautajuma_logika2.drawio.png)]
 
 **KCal aprēķins atbilstoši ankētas atbildēm** 
 No ieņēmtā kaloriju daudzuma ir atkarīgs, cik veiksmīgi lietotāja saņemtā ēdienkarte atbilst viņa/viņas vēlmēm notievēt, saglabāt esošo svaru vai arī pielikt svarā.
@@ -143,13 +143,16 @@ Konceptu modeļi ietilpst sekojošas koncepcijas:
 
 Konceptu modeļa attēlā papildus funkcionalitāte (mazināt ēdienu pagatavošanas laiku vai mazināt ēdienkartes izmaksas) tiek atzīmētas ar punktēto līniju.
 
-[![Alt text](https://github.com/nickh-dev/balanced-menu-planning/blob/374173068ca8e82be1f81d6ee519470b7fc0f041/concept_model.jpg)](Konceptu modelis)
+[![Konceptu modelis](https://github.com/nickh-dev/balanced-menu-planning/blob/374173068ca8e82be1f81d6ee519470b7fc0f041/concept_model.jpg)]
 
 
 <h2>Tehnoloģijas steks</h2>
 
 Servera puse - Satvars: Laravel, Programmēšanas valoda: PHP, Datu bāze: MySQL, Tīmekļa serveris: Nginx, OS: Ubuntu, IaaS: AWS
 Klienta puse - Struktūra: HTML, Prezentācija: CSS(Bootstrap), Uzvedība: JavaScript --> Tīmekļa vietne
+
+
+[![Technology stack](https://github.com/nickh-dev/balanced-menu-planning/blob/a3f6f985a19f57dcfce54f8832a92d46916b9fee/technology_stac.png)]
 
 <h2>Programmatūras apraksts</h2>
 <h1>Novērtējums</h1>
