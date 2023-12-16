@@ -71,17 +71,44 @@ Prasības tiek sadalītas pēc sistēmas moduļa.
 
 | Modulis                          | Prasība                                                                                                                        | Prioritāte  |
 | :---                             |    :----:                                                                                                                      |       :---: |
-| Lietotāja pieteikšanas           | Lietotājs var reģistrēties ar savu e-pastu un ienākt ar e-pastu un paroli, lai izmantot lietotni                               |             |
-| Lietotāja aptauja                | Lietotājs aizpilda anketu, lai saņemt personalizēto rezultātu                                                                  |             |
-| Lietotāja aptauja                | Lietotājs akceptē (confirm), ka iesniegtas atbildes ir pareizas                                                                |             |
-| Lietotāja aptauja                | Pēc anketas aizpildīšanas, lietotājs to var mainīt (edit), un uz jauno atbilžu pamata tiks uzģenerēts jauns rezultāts          |             |
-| Lietotāja aptauja                | Lietotājs ir informēts, kurā (pēc kārtas) ir reize, kad lietotājs izmaina savas atbildes                                       |             |
-| Rezultātu attēlošana             | Lietotājs saņem rezultātu ēdienkartes veidā                                                                                    |             |
-| Rezultātu attēlošana             | Lietotājs var apskatīt iepriekšējos uzģenerētus rezultātus                                                                     |             |
-| Paragraph   | Text        | And more      |
+| Lietotāja pieteikšanas           | Lietotājs var reģistrēties ar savu e-pastu un ienākt ar e-pastu un paroli, lai izmantot lietotni                               |        2     |
+| Lietotāja aptauja                | Lietotājs aizpilda anketu, lai saņemt personalizēto rezultātu                                                                  |        1     |
+| Lietotāja aptauja                | Lietotājs akceptē (confirm), ka iesniegtas atbildes ir pareizas                                                                |        3     |
+| Lietotāja aptauja                | Pēc anketas aizpildīšanas, lietotājs to var mainīt (edit), un uz jauno atbilžu pamata tiks uzģenerēts jauns rezultāts          |        5     |
+| Lietotāja aptauja                | Lietotājs ir informēts, kurā (pēc kārtas) ir reize, kad lietotājs izmaina savas atbildes                                       |        6     |
+| Rezultātu attēlošana             | Lietotājs saņem rezultātu ēdienkartes veidā                                                                                    |        4     |
+| Rezultātu attēlošana             | Lietotājs var apskatīt iepriekšējos uzģenerētus rezultātus                                                                     |        7     |
 
 <h2>Algoritms</h2>
+
+
 <h2>Konceptu modelis</h2>
+Konceptu modeļi ietilpst sekojošas koncepcijas:
++ Lietotājs
++ Aktivitātes līmenis
++ Svars
++ Izmaksas
++ Produktu kopa
++ Ēdienkarte
++ Uzturvielas
++ Ēdienu pagatavošanas laiks
+
+| Nr.  	| Koncepcijas                   	| Attiecība  	| Apraksts                                                                                        |
+|---	   |---	                            |---	         |---                                                                                              |
+| 1  	  |Lietotājs - Aktivitātes līmenis	| 1-1         | Vienam lietotājam vienā anketas aizpildīšanas brīdī atbilst noteiktais aktivitātes līmenis.	    |
+| 2  	  |Lietotājs - Ēdienkarte   	      | 1-many  	   | Vienam lietotājam var būt vairākas ēdienkartes (jo anketa tiek aizpildīta vairākas reizes).     |
+| 3    	|Ēdienkarte - Uzturvielas       	| 1-1  	      | Vienai ēdienkartei ir noteiktās uzņemtas uzturvielas.                                          	|
+| 4    	|Aktivitātes līmenis - Ēdienkarte| 1-1         |	Izvēlētam aktivitātes līmenim atbilst viena noteiktā ēdienkarte, kurai ir pareizs KCal daudzums.|
+| 5    	|Ēdienkarte - Pagatavošanas laiks| 1-1        	|Vienai ēdienkartei atbilst noteikts ēdienu pagatavošanas laiks.                                  |
+| 6    	|Ēdienkarte - Produktu kopa     	| 1-many   	  |Vienā ēdienkarte ietilpst vairāki produkti.                                                     	|
+| 7    	|Lietotājs - Izmaksas           	| 1-1        	|Vienam lietotājam vienā anketas aizpildīšanas brīdī atbilst noteikts izmaksu līmenis.           	|
+| 8    	|Lietotājs - Pagatavošanas laiks | 1-1        	|Lietotājam vienā anketas aizpildīšanas brīdī atbilst noteikts vēlamais laiks ēdienu gatatošanai. |
+| 9    	|Produktu kopa - Izmaksas       	| 1-1        	|Produktu kopa vienā anketas aizpildīšanas brīdī atbilst noteiktai izmaksu summai.               	|
+| 10    |Lietotājs - Svars               | 1-1        	|Lietotājam vienā anketas aizpildīšanas brīdī atbilst noteikts svars un vēlme to mainīt.          |
+| 11   	|Svars - Uzturvielas            	| 1-1        	|Svars vienā anketas aizpildīšanas brīdī atbilst noteiktam kCal daudzumam.                       	|
+
+Konceptu modeļa attēlā papildus funkcionalitāte (mazināt ēdienu pagatavošanas laiku vai mazināt ēdienkartes izmaksas) tiek atzīmētas ar punktēto līniju.
+
 <h2>Tehnoloģijas steks</h2>
 
 Servera puse - Satvars: Laravel, Programmēšanas valoda: PHP, Datu bāze: MySQL, Tīmekļa serveris: Nginx, OS: Ubuntu, IaaS: AWS
