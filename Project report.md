@@ -9,11 +9,11 @@ Pārtikas plānošanas un kontroles lietotnei ir jāveic dažādi uzdevumi, piem
 
 Pārtikas plānošanas un kontroles lietotnes izstrādes mērķis ir uzlabot lietotāju ēdināšanas organizāciju, uzlabot ēdināšanas kvalitāti un veicināt veselīgu uzturu. Lietotnes darbības novērtēšanai var iekļaut šādus aspektus:
 
-* Pārtikas plānošanas efektivitāte: tiek novērtēta lietotnes spēja sniegt personalizētus pārtikas plānus, balstoties uz lietotāja personīgajiem datiem.
+* **Pārtikas plānošanas efektivitāte:** tiek novērtēta lietotnes spēja sniegt personalizētus pārtikas plānus, balstoties uz lietotāja personīgajiem datiem.
 
-* Lietderība: tiek novērtēta lietotnes lietošanas ērtība un lietojamība.
+* **Lietderība:** tiek novērtēta lietotnes lietošanas ērtība un lietojamība.
 
-* Datu drošība: tiek novērtēta lietotnes spēja nodrošināt lietotāja datu drošību.
+* **Datu drošība:** tiek novērtēta lietotnes spēja nodrošināt lietotāja datu drošību.
 
 <h1>Līdzīgo risinājumu pārskats</h1>
 Tiek apskatītas uztura/sabalansētas ēdienkartes mobilas lietotnes:
