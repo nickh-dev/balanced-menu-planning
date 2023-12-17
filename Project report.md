@@ -1,5 +1,6 @@
 <h1>Ievads</h1>
 <h2>Problēmas nostādne</h2>
+
 Grupai tika izvēlēta problēmsituācija **Sabalansētas ēdienkartes plānošana**
 
 Pārtikas plānošanas un kontroles lietotnei ir jāveic dažādi uzdevumi, piemēram, datu savākšana un analīze par lietotāja ēdienkarti, ēdienkārtes pielāgošana, lietošanas ērtība, lietotāja motivēšana un uzturēšana, kā arī datu aizsardzība. Tās mērķis ir palīdzēt lietotājiem pārraudzīt un kontrolēt kaloriju patēriņu, sniegt personalizētus ēdienkārtes plānus, veicināt veselīgu dzīvesveidu. Šīs funkcijas palīdz lietotājiem labāk saprast savus ēšanas ieradumus, uzlabot savu uzturu un saglabāt veselīgu dzīvesveidu.
@@ -8,11 +9,11 @@ Pārtikas plānošanas un kontroles lietotnei ir jāveic dažādi uzdevumi, piem
 
 Pārtikas plānošanas un kontroles lietotnes izstrādes mērķis ir uzlabot lietotāju ēdināšanas organizāciju, uzlabot ēdināšanas kvalitāti un veicināt veselīgu uzturu. Lietotnes darbības novērtēšanai var iekļaut šādus aspektus:
 
-1. Pārtikas plānošanas efektivitāte: tiek novērtēta lietotnes spēja sniegt personalizētus pārtikas plānus, balstoties uz lietotāja personīgajiem datiem.
+* Pārtikas plānošanas efektivitāte: tiek novērtēta lietotnes spēja sniegt personalizētus pārtikas plānus, balstoties uz lietotāja personīgajiem datiem.
 
-2. Lietderība: tiek novērtēta lietotnes lietošanas ērtība un lietojamība.
+* Lietderība: tiek novērtēta lietotnes lietošanas ērtība un lietojamība.
 
-3. Datu drošība: tiek novērtēta lietotnes spēja nodrošināt lietotāja datu drošību.
+* Datu drošība: tiek novērtēta lietotnes spēja nodrošināt lietotāja datu drošību.
 
 <h1>Līdzīgo risinājumu pārskats</h1>
 Tiek apskatītas uztura/sabalansētas ēdienkartes mobilas lietotnes:
