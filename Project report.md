@@ -1,7 +1,7 @@
 <h1>Ievads</h1>
 <h2>Problēmas nostādne</h2>
 
-Grupai tika izvēlēta problēmsituācija **Sabalansētas ēdienkartes plānošana**
+Grupai tika izvēlēta problēmsituācija "**Sabalansētas ēdienkartes plānošana**".
 
 Pārtikas plānošanas un kontroles lietotnei ir jāveic dažādi uzdevumi, piemēram, datu savākšana un analīze par lietotāja ēdienkarti, ēdienkārtes pielāgošana, lietošanas ērtība, lietotāja motivēšana un uzturēšana, kā arī datu aizsardzība. Tās mērķis ir palīdzēt lietotājiem pārraudzīt un kontrolēt kaloriju patēriņu, sniegt personalizētus ēdienkārtes plānus, veicināt veselīgu dzīvesveidu. Šīs funkcijas palīdz lietotājiem labāk saprast savus ēšanas ieradumus, uzlabot savu uzturu un saglabāt veselīgu dzīvesveidu.
 
