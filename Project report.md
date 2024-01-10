@@ -168,7 +168,14 @@ Klienta puse - Struktūra: HTML, Prezentācija: CSS(Bootstrap), Uzvedība: JavaS
 [![Technology stack](https://github.com/nickh-dev/balanced-menu-planning/blob/a3f6f985a19f57dcfce54f8832a92d46916b9fee/technology_stac.png)]
 
 <h2>Programmatūras apraksts</h2>
+Klienta puse sastāv no 3 atsevišķām lapām - lietotāja reģistrācija, aptauja aizpildīšana un rezultātu (ēdienkartes) lapas.
+Lietotāja ievadīti dati nonāk MySQL datu bāzē tabulā Users, pēc tam lietotājs ir pārvirzīts uz aptaujas aizpildīšanas lapu.
+Aptaujas dati nonāk MySQL datu bāzē tabulā Questionnaire, tiek apstrādāti atbilstoši prasībām (tiek aprēķināts lietotājam nepieciešamais kaloriju daudzums un BMI indekss).
+Lietotāja reģistrāciju un aptaujas datus servera pusē apstādā PHP, bet minimizācijas uzdevums tiek aprēķināts ar Python Cplex Doplex bibliotēku. 
+Python izvelk no datu bāzes lietotāja aprēķināto kaloriju daudzumu un veic aprēķinus. Aprēķinu rezultāti tiek ierakstīti JSON formātā visai ēdienkartei 7 dienām MySQL datu bāzē.
+Rezultāta lapa (saplānota ēdienkarte un rekomendācijas) ir izveidota ar PHP un HTML, pamatojoties uz MySQL datu bāzē saņēmtiem datiem.
 <h1>Novērtējums</h1>
 <h2>Novērtēšanas plāns</h2>
+
 <h2>Novērtēšanas rezultāti</h2>
 <h1>Secinājumi</h1>
