@@ -181,9 +181,20 @@ Tiek ņemti vērā tauku, olumbaltumvielu un ogļhidrātu veselīga uztura propo
 
 Python izvelk no datu bāzes lietotāja aprēķināto kaloriju daudzumu un veic aprēķinus. Aprēķinu rezultāti tiek ierakstīti JSON formātā visai ēdienkartei 7 dienām MySQL datu bāzē.
 Rezultāta lapa (saplānota ēdienkarte un rekomendācijas) ir izveidota ar PHP un HTML, pamatojoties uz MySQL datu bāzē saņēmtiem datiem.
+
 <h1>Novērtējums</h1>
 Projekts tiek novērtēts pēc ISO 25010:2011 programmatūras kvalitātes novērtēšanas kritērijiem.
 Pie tam, daži kritēriji tiek izlaisti, jo ierobežota laika dēļ tie nebija ņemti vērā pie projekta izstādes.
+
+<h3>Dalībnieku ieguldījums</h3>
+
+| Dalībnieks  | Paveiktais |
+| ------------- | ------------- |
+| Ņikita Hramčenko  | Back-end un front-end komponentu izveide projektam kopumā. Datubāzes izveide datu glabāšanai. Minimalizācijas algoritma noteikšana, izstrādājot Python skriptu.  |
+| Jūlija Fedotova  | Dokumentācijas rakstīšana, diagrammu un tabulu izveide. Plakāta izveide.  |
+| Rinalds Mackevičs  | Informācijas avotu meklēšana, palīdzība dokumentācijas rakstīšanā, tabulu ar diagrammām veidošanā, ēdienkartes plānošana. Plakāta izveide.  |
+| Edgars Jurkjāns  | Palīdzība informācijas avotu meklēšanā, dokumentācijas rakstīšanā, palīdzība Python skripta izveidē, ēdienkartes plānošana.  |
+| Artūrs Romaška  | Palīdzība produktu izstrādē, problēmu novēršanā un optimizācijas iespēju meklēšanā. Python skripta izveidē.  |
 
 <h2>Novērtēšanas plāns</h2>
 Projekts tiek novērtēts pēc Funkcionālitātes un Pielietojamības prasību grupām.
