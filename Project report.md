@@ -165,7 +165,7 @@ Servera puse - Satvars: Laravel, Programmēšanas valoda: PHP, Datu bāze: MySQL
 Klienta puse - Struktūra: HTML, Prezentācija: CSS(Bootstrap), Uzvedība: JavaScript --> Tīmekļa vietne
 
 
-[![Technology stack](https://github.com/nickh-dev/balanced-menu-planning/blob/a3f6f985a19f57dcfce54f8832a92d46916b9fee/technology_stac.png)]
+[![Technology stack](https://github.com/nickh-dev/balanced-menu-planning/blob/main/technology_stack.png)]
 
 <h2>Programmatūras apraksts</h2>
 Klienta puse sastāv no 3 atsevišķām lapām - lietotāja reģistrācija, aptauja aizpildīšana un rezultātu (ēdienkartes) lapas.
