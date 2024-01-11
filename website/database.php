@@ -3,10 +3,9 @@
     $db_user = "root";
     $db_pass = "";
     $db_name = "login_register";
-    $db_port = 3307;
 
     try {
-        $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name, $db_port);
+        $conn = mysqli_connect($db_server, $db_user, $db_pass, $db_name);
     } catch (mysqli_sql_exception) {
         die("Something went wrong");
     }
