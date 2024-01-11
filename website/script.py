@@ -659,4 +659,3 @@ try:
 
 finally:
     cnx.close()
-print("XYJ")

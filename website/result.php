@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="table.css">
     <title>Menu</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
         
     ?>
     <div class="container">
-        <table class="table table-bordered" id="center">
+        <table class="table table-bordered" id="test">
             <thead>
                 <tr>
                     <th scope="col">Monday</th>
@@ -55,9 +55,6 @@
     ?>
         </tbody>
   </table>
-</div>
-<div class="form-btn">
-    <a href="logout.php" class="btn btn-primary me-md-2" style="background-color: red; border: none;">Logout</a>
 </div>
 </body>
 </html>
