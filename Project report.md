@@ -172,10 +172,57 @@ Klienta puse sastāv no 3 atsevišķām lapām - lietotāja reģistrācija, apta
 Lietotāja ievadīti dati nonāk MySQL datu bāzē tabulā Users, pēc tam lietotājs ir pārvirzīts uz aptaujas aizpildīšanas lapu.
 Aptaujas dati nonāk MySQL datu bāzē tabulā Questionnaire, tiek apstrādāti atbilstoši prasībām (tiek aprēķināts lietotājam nepieciešamais kaloriju daudzums un BMI indekss).
 Lietotāja reģistrāciju un aptaujas datus servera pusē apstādā PHP, bet minimizācijas uzdevums tiek aprēķināts ar Python Cplex Doplex bibliotēku. 
+
+Ēdienkarte tiek aprēķināta, pamatojoties uz sekojošiem principiem:
++ Brokastis sastāda 30% no dienas kaloriju daudzuma;
++ Pusdienas sastāda 45% no dienas kaloriju daudzuma;
++ Vakariņas sastāda 25% no dienas kaloriju daudzuma;
+Tiek ņemti vērā tauku, olumbaltumvielu un ogļhidrātu veselīga uztura proporcija, kas tiek aprēķināta, pamatojoties uz vēlāmo kaloriju daudzumu.
+
 Python izvelk no datu bāzes lietotāja aprēķināto kaloriju daudzumu un veic aprēķinus. Aprēķinu rezultāti tiek ierakstīti JSON formātā visai ēdienkartei 7 dienām MySQL datu bāzē.
 Rezultāta lapa (saplānota ēdienkarte un rekomendācijas) ir izveidota ar PHP un HTML, pamatojoties uz MySQL datu bāzē saņēmtiem datiem.
 <h1>Novērtējums</h1>
+Projekts tiek novērtēts pēc ISO 25010:2011 programmatūras kvalitātes novērtēšanas kritērijiem.
+Pie tam, daži kritēriji tiek izlaisti, jo ierobežota laika dēļ tie nebija ņemti vērā pie projekta izstādes.
+
 <h2>Novērtēšanas plāns</h2>
+Projekts tiek novērtēts pēc Funkcionālitātes un Pielietojamības prasību grupām.
++ Noderīgums
++ Prezīcitāte
++ Savienojamība
++ Drošība 
++ Funkcionālā saskaņotība
+
+Pielietojuma prasību grupa:
++ Viegli uztverama lietotne
++ Viegli iemācīties to lietot
++ Darbspēja
++ Pievilcība
++ Lietošanas saskaņotība
+
+Pēc katra kritērija grupa kopīgi nolēma, kā novērtēt mūsu projektu, 10-baļļu skala. Dažiem novērtējumiem ir pierakstīti komentāri.
 
 <h2>Novērtēšanas rezultāti</h2>
+Funkcionalitātes prasību grupa
++ Noderīgums (6/10) Projekts ir ierobežots ar studentu izvēlēto ēdienkarti
++ Prezīcitāte (8/10) Python koda daļa labi nostrāda minimizācijas uzdevumam, tomēŗ visas cenas mūsu uzdevuma nostādne ir ieliktas vienādas, lai ēdienkarte būtu pēc iespējas veselīgākā
++ Savienojamība (prasība izlaista)
++ Drošība (3/10) Par projekta drošību nebija domāts, tāpēc projekta kods nav aizsargāts no visādiem iespējamiem uzbrukumiem.
++ Funkcionālā saskaņotība (prasība izlaista)
+
+Pielietojuma prasību grupa:
++ Viegli uztverama lietotne (7/10) 
++ Viegli iemācīties to lietot  Lietotne ir ļoti maza, lai varētu novēŗtēt to apmācības procesu
++ Darbspēja (6/10)
++ Pievilcība (5/10) Standarta lietotne, nebija laika veidot pievilcīgu dizainu, un tas nebija projekta pamatuzdevums.
++ Lietošanas saskaņotība (prasība izlaista)
 <h1>Secinājumi</h1>
+1. Projekta steka definēšana ir ļoti svarīgs moments. Mums nācas pārrakstīt kodu, jo sākumā tika izvēlēta Python bibliotēka, kas nav savienojamā ar PHP, jo vairs nav uzturēta.
+
+2. Grupu darba organizācija ir laikietilpīgs process, lai saskaņot uzdevumus, izpildes laikus, plānu un nodošanas termiņu ievērošanu.
+
+3. Pie labāk organizēta darba varētu pievērst uzmanību arī programmas koda optimizācijai, jo uz doto brīdi kods nav optimāls.
+
+4. Sabalansētas ēdienkartes temats ir ļoti plašs un, lai lietotnes kodam būtu kaut kāds zinatnisks pamatojums, nācas pētīt, kā savā starpā tiek sadalītas kalorijas un uzturvielas, kā vislabāk sadalīt kalorijas dienas garumā, utt.
+5. Operāciju pētīšanas priekšmetā vairs nav uzdevuma par sabalansēto ēdienkarti, tā vietā tiek rēķināts Scrum/uzdevumu sadalījums, tāpēc tematika uzdevumam bija pilnīgi jauna.
+ 
