@@ -194,7 +194,7 @@ Pie tam, daži kritēriji tiek izlaisti, jo ierobežota laika dēļ tie nebija �
 | Jūlija Fedotova  | Dokumentācijas rakstīšana, diagrammu un tabulu izveide. Plakāta izveide.  |
 | Rinalds Mackevičs  | Informācijas avotu meklēšana, palīdzība dokumentācijas rakstīšanā, tabulu ar diagrammām veidošanā, ēdienkartes plānošana. Plakāta izveide.  |
 | Edgars Jurkjāns  | Palīdzība informācijas avotu meklēšanā, dokumentācijas rakstīšanā, palīdzība Python skripta izveidē, ēdienkartes plānošana.  |
-| Artūrs Romaška  | Palīdzība produktu izstrādē, problēmu novēršanā un optimizācijas iespēju meklēšanā. Python skripta izveidē.  |
+| Artūrs Romaška  | Palīdzība produktu izstrādē, problēmu novēršanā un optimizācijas iespēju meklēšanā. Minimalizācijas algoritma noteikšana, izstrādājot Python skriptu.  |
 
 <h2>Novērtēšanas plāns</h2>
 Projekts tiek novērtēts pēc Funkcionālitātes un Pielietojamības prasību grupām.
